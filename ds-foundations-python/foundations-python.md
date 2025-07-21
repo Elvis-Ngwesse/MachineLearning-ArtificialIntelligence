@@ -58,8 +58,7 @@ pip install kaggle
 
 📁 3. Move API Key to the Right Place
 
-Create the .kaggle/ folder and move the file:
-chmod 600 .kaggle/kaggle.json
+chmod 600 kaggle.json
 
 📌 Titanic Dataset
 # Titanic dataset

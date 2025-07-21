@@ -43,3 +43,5 @@ Desktop.ini
 htmlcov/
 coverage.xml
 .tox/
+
+ds-foundations-python/kaggle.json
