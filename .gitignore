@@ -1,2 +1,45 @@
+# Virtual environment
 venv/
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter Notebook checkpoints (in case you add notebooks later)
+.ipynb_checkpoints/
+
+# Data artifacts
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+
+# Logs and temp
+*.log
+*.tmp
+.DS_Store
+*.swp
+
+# IDEs and tools
+.vscode/
 .idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS/system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.tox/
