@@ -12,6 +12,7 @@ Welcome to the hands-on learning repo for **Python for Data Science (Weeks 1–2
 - Mini Project: Retail Sales Analysis
 
 ## Repo Structure
+
 phase-1/
 │
 ├── readme-phase-1.md
@@ -30,12 +31,15 @@ source venv/bin/activate
 ```
 
 2. Install dependencies:
+
 pip install -r requirements.txt
 
 3. Go to folder
+
 cd ds-foundations-python/
 
 4. Run files
+
 python main.py
 You'll get a menu like:
 📚 Data Science Practice Menu
@@ -44,23 +48,18 @@ You'll get a menu like:
 ...
 0. Exit
 
+## Install kaggle
 
-pip install kaggle
-🔐 2. Get Your Kaggle API Key
+1. pip install kaggle
+2. Get Your Kaggle API Key
+3. Go to: https://www.kaggle.com/account
+4. Scroll down to API
+5. Click “Create New API Token”
+6. chmod 600 kaggle.json
 
-    Go to: https://www.kaggle.com/account
+## Download data-set
 
-    Scroll down to API
-
-    Click “Create New API Token”
-
-    This will download a file called kaggle.json
-
-📁 3. Move API Key to the Right Place
-
-chmod 600 kaggle.json
-
-📌 Titanic Dataset
+## 📌 Titanic Dataset
 # Titanic dataset
 export KAGGLE_CONFIG_DIR=/Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python
 
@@ -70,7 +69,7 @@ mv /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligen
 rm /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python/data/titanic.zip
 
 
-📌 Netflix Dataset
+## 📌 Netflix Dataset
 export KAGGLE_CONFIG_DIR=/Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python
 
 kaggle datasets download -d shivamb/netflix-shows -p /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python/data
@@ -78,7 +77,7 @@ unzip /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelli
 mv /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python/data/netflix_titles.csv /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python/data/netflix_movies.csv
 rm /Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python/data/netflix-shows.zip
 
-📌 Retail Sales Dataset
+## 📌 Retail Sales Dataset
 export KAGGLE_CONFIG_DIR=/Users/elvisngwesse/Desktop/Repositories/MachineLearning-ArtificialIntelligence/ds-foundations-python
 
 kaggle datasets download -d aslanahmedov/walmart-sales-forecast -p ds-foundations-python/data

@@ -38,10 +38,25 @@ print(greet("Alice"))
 def is_prime(n):
     if n <= 1:
         return False
-    for i in range(2, int(n ** 0.5) + 1):
+    for i in range(2, n):  # check from 2 up to n-1
         if n % i == 0:
             return False
     return True
 
-print("Is 17 prime?", is_prime(17))
-print("Is 18 prime?", is_prime(18))
+"""
+🔹 for i in range(2, n):
+    This means:
+    "Start from 2, and go up to n-1."
+    Example: if n = 7, it checks: 2, 3, 4, 5, 6
+You're looping over all possible divisors of n (except 1 and n itself).
+
+ if n % i == 0:
+
+    This means:
+    "If n divided by i has no remainder, then i divides n exactly."
+
+    The % operator is called modulo — it gives the remainder.
+"""
+# Run this only if the script is executed directly
+if __name__ == "__main__":
+    print("Is 17 prime?", is_prime(17))  # Or any number you want
