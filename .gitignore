@@ -9,15 +9,6 @@ __pycache__/
 *.pyd
 *.pkl
 
-# Jupyter Notebook checkpoints (in case you add notebooks later)
-.ipynb_checkpoints/
-
-# Data artifacts
-*.csv
-*.tsv
-*.xls
-*.xlsx
-*.json
 
 # Logs and temp
 *.log
@@ -28,20 +19,12 @@ __pycache__/
 # IDEs and tools
 .vscode/
 .idea/
-*.sublime-workspace
-*.sublime-project
 
-# OS/system files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
 
 # Pytest cache
 .pytest_cache/
 
-# Coverage reports
-htmlcov/
-coverage.xml
-.tox/
 
 ds-foundations-python/kaggle.json
+
+*.png
